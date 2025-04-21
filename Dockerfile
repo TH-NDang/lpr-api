@@ -24,6 +24,6 @@ COPY --from=base /usr/src/app/package.json ./package.json
 
 ENV NODE_ENV=production
 
-EXPOSE 6000
+EXPOSE 3001
 
 CMD ["bun", "run", "start"]
